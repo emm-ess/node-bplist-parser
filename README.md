@@ -25,7 +25,7 @@ bplist.parseFile('myPlist.bplist', function(err, obj) {
 
 (The MIT License)
 
-Copyright (c) 2012 Near Infinity Corporation
+Copyright (c) 2019 Marten Schälicke
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
