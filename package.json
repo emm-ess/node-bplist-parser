@@ -1,10 +1,10 @@
 {
   "name": "bplist-parser",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Binary plist parser.",
   "main": "bplistParser.js",
   "scripts": {
-    "test": "./node_modules/nodeunit/bin/nodeunit test"
+    "test": "mocha test"
   },
   "keywords": [
     "bplist",
@@ -14,8 +14,11 @@
   "author": "Marten Schälicke <hallo@emm-ess.de>",
   "license": "MIT",
   "devDependencies": {
-    "nodeunit": "~0.9.1"
+    "eslint": "^6.5.1",
+    "mocha": "^6.2.2"
   },
+  "homepage": "https://github.com/nearinfinity/node-bplist-parser",
+  "bugs": "https://github.com/nearinfinity/node-bplist-parser/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/emm-ess/node-bplist-parser.git"
